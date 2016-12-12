@@ -430,12 +430,12 @@ font-size: 25px;
 }
   .maincont{
   width: 100%;
-  height: 230px;
+  height: 250px;
   overflow:hidden;
  }
  .maincontnoanim{
   width: 100%;
-  height: 250px;
+  height: 220px;
   top: 0%;
   left: 0%;
   margin:0px;

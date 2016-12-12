@@ -1,0 +1,547 @@
+/*
+ *создание градиента http://www.cssmatic.com/gradient-generator
+ */
+body {
+font-size: 16px;
+font-family:'Indie Flower', cursive;
+background: rgba(51,92,193,0.86);
+background: -moz-linear-gradient(-45deg, rgba(51,92,193,0.86) 0%, rgba(117,157,202,1) 15%, rgba(134,174,204,1) 19%, rgba(45,68,139,1) 28%, rgba(14,21,89,0.99) 35%, rgba(45,68,139,0.99) 40%, rgba(8,6,77,0.99) 45%, rgba(45,68,139,0.99) 50%, rgba(45,68,139,0.99) 56%, rgba(14,21,89,0.99) 62%, rgba(134,174,204,0.99) 69%, rgba(45,68,139,0.98) 82%, rgba(45,68,139,0.98) 90%, rgba(45,68,139,0.97) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(51,92,193,0.86)), color-stop(15%, rgba(117,157,202,1)), color-stop(19%, rgba(134,174,204,1)), color-stop(28%, rgba(45,68,139,1)), color-stop(35%, rgba(14,21,89,0.99)), color-stop(40%, rgba(45,68,139,0.99)), color-stop(45%, rgba(8,6,77,0.99)), color-stop(50%, rgba(45,68,139,0.99)), color-stop(56%, rgba(45,68,139,0.99)), color-stop(62%, rgba(14,21,89,0.99)), color-stop(69%, rgba(134,174,204,0.99)), color-stop(82%, rgba(45,68,139,0.98)), color-stop(90%, rgba(45,68,139,0.98)), color-stop(100%, rgba(45,68,139,0.97)));
+background: -webkit-linear-gradient(-45deg, rgba(51,92,193,0.86) 0%, rgba(117,157,202,1) 15%, rgba(134,174,204,1) 19%, rgba(45,68,139,1) 28%, rgba(14,21,89,0.99) 35%, rgba(45,68,139,0.99) 40%, rgba(8,6,77,0.99) 45%, rgba(45,68,139,0.99) 50%, rgba(45,68,139,0.99) 56%, rgba(14,21,89,0.99) 62%, rgba(134,174,204,0.99) 69%, rgba(45,68,139,0.98) 82%, rgba(45,68,139,0.98) 90%, rgba(45,68,139,0.97) 100%);
+background: -o-linear-gradient(-45deg, rgba(51,92,193,0.86) 0%, rgba(117,157,202,1) 15%, rgba(134,174,204,1) 19%, rgba(45,68,139,1) 28%, rgba(14,21,89,0.99) 35%, rgba(45,68,139,0.99) 40%, rgba(8,6,77,0.99) 45%, rgba(45,68,139,0.99) 50%, rgba(45,68,139,0.99) 56%, rgba(14,21,89,0.99) 62%, rgba(134,174,204,0.99) 69%, rgba(45,68,139,0.98) 82%, rgba(45,68,139,0.98) 90%, rgba(45,68,139,0.97) 100%);
+background: -ms-linear-gradient(-45deg, rgba(51,92,193,0.86) 0%, rgba(117,157,202,1) 15%, rgba(134,174,204,1) 19%, rgba(45,68,139,1) 28%, rgba(14,21,89,0.99) 35%, rgba(45,68,139,0.99) 40%, rgba(8,6,77,0.99) 45%, rgba(45,68,139,0.99) 50%, rgba(45,68,139,0.99) 56%, rgba(14,21,89,0.99) 62%, rgba(134,174,204,0.99) 69%, rgba(45,68,139,0.98) 82%, rgba(45,68,139,0.98) 90%, rgba(45,68,139,0.97) 100%);
+background: linear-gradient(135deg, rgba(51,92,193,0.86) 0%, rgba(117,157,202,1) 15%, rgba(134,174,204,1) 19%, rgba(45,68,139,1) 28%, rgba(14,21,89,0.99) 35%, rgba(45,68,139,0.99) 40%, rgba(8,6,77,0.99) 45%, rgba(45,68,139,0.99) 50%, rgba(45,68,139,0.99) 56%, rgba(14,21,89,0.99) 62%, rgba(134,174,204,0.99) 69%, rgba(45,68,139,0.98) 82%, rgba(45,68,139,0.98) 90%, rgba(45,68,139,0.97) 100%);
+}
+h1{
+font-family: 'Lobster', cursive;
+font-size: 24px;
+color:#FFD700;
+padding-left:50px;
+}
+/** HEADER **/
+#header-nav {
+  background:linear-gradient(45deg, rgba(63,101,191,0) 0%, rgba(63,101,191,0.05) 3%, rgba(116,156,201,0.23) 15%, rgba(134,174,204,0.23) 19%, rgba(55,80,146,0.23) 27%, rgba(45,68,139,0.26) 28%, rgba(14,21,89,0.51) 35%, rgba(29,41,107,0.58) 37%, rgba(51,72,135,0.66) 40%, rgba(18,21,90,0.86) 47%, rgba(8,6,77,0.85) 49%, rgba(45,68,139,0.81) 55%, rgba(45,68,139,0.79) 59%, rgba(14,21,89,0.82) 67%, rgba(134,174,204,0.86) 79%, rgba(126,164,198,0.86) 80%, rgba(45,68,139,0.62) 90%, rgba(45,68,139,0.16) 100%);
+  border-radius: 0;
+  border: 0;
+  height:100px;
+  opacity:0.9;
+  border-bottom: 0;
+}
+#maintitle {
+margin-top:25px;
+margin-left:25px;
+font-size: 20px;
+}
+#maintitle p {
+font-family: 'Lobster', cursive;
+margin-top:0px;
+margin-right:0px;
+padding-left:5.3px;
+font-size: 32px;
+text-align: center;
+color:#FF0000;
+}
+#maintitle p.colortext{
+color:#FFFAF0;
+}
+.navbar-brand {
+  padding-top: 0px;
+}
+.navbar-brand h1 { 
+  font-family:'Indie Flower', cursive;
+  color: #FFD700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  padding-right:50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 35px;
+  margin-right: 35px;
+ }
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 35px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background: linear-gradient(to bottom, rgba(179,220,237,0.21) 0%, rgba(41,184,229,0.61) 50%, rgba(188,224,238,1) 100%);
+  border-top: 0;
+  }
+#email, #address {
+  line-height: 2;
+  }
+#email > span, #address > span {
+  font-size: 1.5em;
+}
+#address p {
+  color: #557c3e;
+  font-size: 1.2em;
+  line-height: 2.1;
+}
+#address a {
+  color: #191970;
+  }
+#email a {
+  color: #191970;
+  }
+  #testimonials a {
+  color: #FFD700;
+  }
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  font-size: 1.6em;
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+/* HOME PAGE */
+div .no-gutter > [class*='col-'] {
+    padding-right:10px;
+    margin-left:0px;
+    margin-bottom:20px;
+   }
+ .maincont{
+  width: 100%;
+  height: 720px;
+  top: 50%;
+  left: 0%;
+  margin:5px;
+  position: relative; 
+  float: left; 
+  overflow:hidden;
+ }
+.maincontnoanim{
+  width: 100%;
+  height: 720px;
+  top: 0%;
+  left: 0%;
+  margin:0px;
+  border-radius:50%;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainimageNY2.jpg')no-repeat center;
+  position: absolute; 
+  float: left; 
+  }
+.snow{
+  width: 93%;
+  height:470px;
+  z-index:100;
+  top: 0%;
+  left: 0%;
+  margin:0px;
+  position: absolute; 
+  overflow:hidden;
+  float: left; 
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/snowflake5.png');
+  -webkit-animation: fadeOutDown 38s infinite  ;
+  -moz-animation:fadeOutDown 38s infinite  ;
+  -ms-animation:fadeOutDown 38s infinite ;
+   animation:fadeOutDown 38s infinite ;
+   }
+  @-webkit-keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+.box {
+    position: absolute;
+    float: left; 
+	z-index: 2;
+    left: 100% ;
+    top: 60%;
+    width: 100%;
+    height: 10%;
+    animation: move 20s 1 linear;
+		}
+   @keyframes move {
+   0% { transform: translateX(0%); 
+   }
+   100% { transform: translateX(-200%); 
+   }
+}
+ @-webkit-keyframes move {
+   0% { transform: translateX(0%); 
+   }
+   100% { transform: translateX(-200%); 
+   }
+}
+ 
+/*-- Звезды --*/
+.stars {
+  position: absolute;
+  z-index: 2;
+  margin-top: 0%; 
+  margin-left:0%;
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  float: left; 
+  border-radius:50%;
+  background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/starsNY5.png')repeat-x;
+  -webkit-animation: stars-anim 5s infinite ;
+  animation: stars-anim 5s infinite ;
+	}
+
+@keyframes stars-anim {   
+ 	0%{
+        opacity: 1;
+    }
+   100% {
+      opacity: 0;
+    }
+	} 
+@-webkit-keyframes stars-anim {
+	 transition-duration: normal;
+	0%{
+       opacity: 1;
+	transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+   100% {
+      opacity: 0;
+	transition-timing-function: ease-in-out;
+    }
+	}
+/*-- Снег--*/
+.deer{
+  -moz-animation: xAxis 10s infinite linear;
+  -ms-animation: xAxis 10s infinite linear;
+  -webkit-animation: xAxis 10s infinite linear;
+  animation: xAxis 10s ease-in-out;
+}
+
+.deer::after {
+  content: '';
+  display: block;
+  z-index:150;
+  width: 100%;
+  height: 179px;
+  overflow:hidden;
+   background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/deer1.png') no-repeat;
+  -webkit-animation: yAxis 10s infinite linear;
+  animation: yAxis 10s ease-in-out;
+}
+@keyframes yAxis {
+   0%{ opacity: 1;
+
+    -webkit-transform: translateY(40%);
+    transform: translateY(40%);
+    }
+  25% {
+     opacity: 1;
+
+    -webkit-transform: translateY(60%);
+    transform: translateY(60%);
+  }
+  50% {
+     opacity: 1;
+  
+    -webkit-transform: translateY(80%);
+    transform: translateY(80%);
+  }
+   75% {
+     opacity: 1;
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+  }
+    100% {
+    opacity:0;
+
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    }
+}
+@keyframes xAxis {
+  0% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  50% {
+    opacity: 1;
+   }
+   
+    100% {
+    opacity: 0;
+    -webkit-transform: translateX(67%);
+    transform: translateX(67%);
+    }
+}
+@-webkit-keyframesc yAxis {
+  50% {
+    -webkit-animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    -webkit-transform: translateY(-300px);
+    transform: translateY(-300px);
+  }
+}
+
+@-webkit-keyframesc xAxis {
+  50% {
+    -webkit-animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+}
+
+/* END HOME PAGE */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ /* Lage 1440x400 ok
+  * Laptop 1024x369 ok */
+#av { 
+     position: absolute;
+	 z-index: 150;
+     top: 2%;
+     left: 4%;
+     width: 20%;
+     height:10% ;
+     opacity:0.4;
+     backcolor:#FFFF00;
+     frontcolor:#FFFF00;
+     cursor: pointer;
+     	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ h1{
+font-size: 16px;
+color:#FFD700;
+padding-left:0px;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+h1{
+font-size: 20px;
+}
+#maintitle p{
+font-size: 25px;
+}
+   .navbar-brand {
+    padding-top: 10px;
+    height: 20px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    padding-right:0px;
+    font-size:14px;
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  }
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+h1{
+font-size: 20px;
+}
+#maintitle p{
+font-size: 25px;
+}
+   .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+ .maincont{
+  width: 100%;
+  height: 219px;
+  overflow:hidden;
+ }
+  .maincontnoanim{
+  width: 100%;
+  height: 219px;
+  top: 0%;
+  left: 0%;
+  margin:0px;
+  border-radius:50%;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainimageNY22.jpg')no-repeat center;
+  position: absolute; 
+  float: left; 
+}
+  .deer::after {
+  content: '';
+  display: block;
+  z-index:150;
+  width: 100%;
+  height: 77px;
+  overflow:hidden;
+   background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/deer2.png') no-repeat;
+}
+.stars{
+background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/starsNY51.png')repeat-x;
+}
+.snow{
+  width: 93%;
+  height:139px;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/snowflake52.png');
+}
+
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  h1{
+font-size: 20px;
+}
+#maintitle p{
+font-size: 25px;
+}
+  .maincont{
+  width: 100%;
+  height: 250px;
+  overflow:hidden;
+ }
+ .maincontnoanim{
+  width: 100%;
+  height: 250px;
+  top: 0%;
+  left: 0%;
+  margin:0px;
+  border-radius:50%;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainimageNY21.jpg')no-repeat center;
+  position: absolute; 
+  float: left; 
+  }
+  .deer::after {
+  content: '';
+  display: block;
+  z-index:150;
+  width: 100%;
+  height: 77px;
+  overflow:hidden;
+   background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/deer2.png') no-repeat;
+}
+.stars{
+background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/starsNY51.png')repeat-x;
+}
+.snow{
+  width: 93%;
+  height:261px;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/snowflake51.png');
+}
+}
+@media (max-width:320px) {
+ .maincont{
+  width: 100%;
+  height: 219px;
+  overflow:hidden;
+ }
+  .maincontnoanim{
+  width: 100%;
+  height: 219px;
+  top: 0%;
+  left: 0%;
+  margin:0px;
+  border-radius:50%;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainimageNY21.jpg')no-repeat center;
+  position: absolute; 
+  float: left;  
+}
+  .deer::after {
+  content: '';
+  display: block;
+  z-index:150;
+  width: 100%;
+  height: 77px;
+  overflow:hidden;
+   background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/deer2.png') no-repeat;
+}
+.stars{
+background: url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/starsNY51.png')repeat-x;
+}
+.snow{
+  width: 93%;
+  height:261px;
+  background:url('https://s3.eu-central-1.amazonaws.com/marishathewicked/images/snowflake51.png');
+}
+}
